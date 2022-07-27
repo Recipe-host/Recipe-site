@@ -17,8 +17,9 @@ body{
     max-width: 400px;
 }
 
-ul{
+ul,li{
     word-wrap: break-word;
+    text-align: left;
 }
 #cards{
     display: flex;
