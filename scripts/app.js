@@ -12,7 +12,7 @@ const submit = document.querySelector("#submit-button")
 add_button.addEventListener("click", e =>{
     e.preventDefault();
     //store data in previous 
-    let temp_input = `<input class="form-control my-2" required><button>remove</button>`;
+    let temp_input = `<input class="form-control my-2" required><button class="btn bg-danger my-2">remove</button>`;
     input_field.innerHTML += temp_input;
 })
 submit.addEventListener("click", e => {
