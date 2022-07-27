@@ -1,15 +1,23 @@
 body{
-    height: 100vh;
+    height:100vh;
     width: 100vw;
+    background-color: black;
     background-image: url("Buger_background.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    text-align: center;
 
 }
-.container{
+
+.card{
+    background-color: rgba(10,10,1,0.5);
+    backdrop-filter: blur(1rem);
     max-width: 400px;
 }
-.card{
-    background-color: rgba(10,10,10,0.5);
-    backdrop-filter: blur(1rem);
+
+
+#cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
